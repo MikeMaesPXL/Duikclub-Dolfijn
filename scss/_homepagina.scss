@@ -2,15 +2,15 @@
 
 .navigation { 
     height: 70px;
-    width: 360px;
+    min-width: 360px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10px;
+    padding: 0 20px;
 
     .profile-picture {
-        width: 36px;
-        height: 36px;
+        width: 40px;
+        height: 40px;
         border-radius: 50%;
         background-image: url(/assets/images/animals/3.jpg);
         background-repeat: no-repeat;
@@ -18,32 +18,81 @@
     }
 
     .logo {
-        width: 50px;
-        height: 50px;
-        background-color: orange;
+        width: 100px;
+        height: 100px;
+        background-image: url(/assets/images/logos/Dolfijn.png);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .menu-icon {
-        width: 24px;
-        height: 18px;
+        width: 26px;
+        height: 20px;
         position: relative;
         cursor: pointer;
 
         .line {
             width: 100%;
-            height: 3px;
-            background-color: orange;
+            height: 2px;
+            background-color: $color-primary;
             position: absolute;
-            left: 0;
+            right: 0;
+
             &:nth-child(1) {
                 top: 0;
+                width: 100%;
             }
             &:nth-child(2) {
-                top: 7px;
+                top: 10px;
+                width: 75%;
             }
             &:nth-child(3) {
-                top: 14px;
+                top: 20px;
+                width: 50%;
             }
+        }
+    }
+}
+
+
+.banner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: $color-white;
+    min-width: 360px;
+    
+    img {
+        max-width: 100%;
+        height: auto;
+        transform: scaleX(-1);
+        opacity: 60%;
+    }
+
+    .banner-text {
+        position: absolute;
+        margin-left: 20px;
+        .header-text {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 10px;
+
+            h1 {
+                @include header_text(40px);
+                margin-bottom: -10px;
+            }
+
+            #title-size {
+                @include header_text(60px);
+            }
+        }
+        p {
+            @include paragraph_text();
+        }
+        span {
+            font-size: 20px;
+            color: $color-primary;
+            font-weight: 500;
         }
     }
 }
