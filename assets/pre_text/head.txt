@@ -4,7 +4,7 @@
     <title>Duikclub Dolfijn</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="../css/main.css">
 
     <!-- Fonts -->
     <link href="/assets/fonts/StageGrotesk-Light.woff2" as="font" type="font/woff2" crossorigin>
