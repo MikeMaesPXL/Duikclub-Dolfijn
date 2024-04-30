@@ -1,1 +1,15 @@
+<<<<<<< HEAD
 /*# sourceMappingURL=main.css.map */
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Stage Grotesk", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=main.css.map */
+>>>>>>> b28de5149ebb83d264ca34db3ebf4ff244934fb1
