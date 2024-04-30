@@ -19,6 +19,10 @@ $font-grotesk: 'Stage Grotesk', sans-serif;
     text-decoration: none;
 }
 
+body {
+    background-color: $color-black;
+}
+
 @mixin header_text($font-size: 48px) {
     font-size: $font-size;
     font-weight: 700;
