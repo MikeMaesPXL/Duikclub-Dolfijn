@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="/css/main.css">
 
     <!-- Fonts -->
-    <link href="/fonts/StageGrotesk-Light.woff2" as="font" type="font/woff2" crossorigin>
-    <link href="/fonts/StageGrotesk-Regular.woff2" as="font" type="font/woff2" crossorigin>
-    <link href="/fonts/StageGrotesk-Medium.woff2" as="font" type="font/woff2" crossorigin>
-    <link href="/fonts/StageGrotesk-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link href="/assets/fonts/StageGrotesk-Light.woff2" as="font" type="font/woff2" crossorigin>
+    <link href="/assets/fonts/StageGrotesk-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link href="/assets/fonts/StageGrotesk-Medium.woff2" as="font" type="font/woff2" crossorigin>
+    <link href="/assets/fonts/StageGrotesk-Bold.woff2" as="font" type="font/woff2" crossorigin>
 
 </head>
